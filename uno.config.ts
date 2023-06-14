@@ -22,6 +22,7 @@ export default defineConfig({
       grey: '#00000080',
 
     },
+
   },
   presets: [
     presetUno(),

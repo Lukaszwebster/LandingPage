@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
   <button
     type="button"
-    class="rounded-3xl pb-2 pl-8 pr-8 pt-2 text-white hover:bg-teal-200"
+    class="ml-[50px] rounded-xl bg-white pb-[14px] pl-[44px] pr-[44px] pt-[14px] text-[1.5rem] text-blue hover:bg-teal-200"
     :class="props.secondary ? 'bg-bluegray' : 'bg-cyan' "
   >
     <slot />

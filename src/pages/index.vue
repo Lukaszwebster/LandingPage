@@ -4,6 +4,6 @@ const { t } = useI18n()
 
 <template>
   <div>
-    home
+    <TheHomeHero />
   </div>
 </template>

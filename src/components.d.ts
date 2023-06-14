@@ -15,6 +15,7 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
+    TheHomeHero: typeof import('./components/TheHomeHero.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
     TheTopBar: typeof import('./components/TheTopBar.vue')['default']
     TopBar: typeof import('./components/TopBar.vue')['default']
