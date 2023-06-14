@@ -1,5 +1,7 @@
 <template>
-  <div class="hero-bg absolute h-2xl w-full" />
+  <div class="hero-bg absolute h-2xl w-full">
+    <h1 />
+  </div>
 </template>
 
 <style scoped>
