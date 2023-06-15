@@ -10,6 +10,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppButton: typeof import('./components/AppButton.vue')['default']
+    AppTabs: typeof import('./components/AppTabs.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -22,6 +23,7 @@ declare module '@vue/runtime-core' {
     TheHomeHero: typeof import('./components/TheHomeHero.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
     TheTopBar: typeof import('./components/TheTopBar.vue')['default']
+    TheTravelFilter: typeof import('./components/TheTravelFilter.vue')['default']
     TopBar: typeof import('./components/TopBar.vue')['default']
   }
 }

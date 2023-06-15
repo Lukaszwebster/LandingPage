@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mr-[31px] flex items-center border border-gray rounded-4 bg-white pb-[44px] pl-[22.24px] pr-[22.24px] pt-[44px]">
+    <div class="mr-[31px] flex items-center border border-gray rounded-[25px] bg-white pb-[44px] pl-[22.24px] pr-[22.24px] pt-[44px]">
       <div>
         <p class="text-[18px] text-gray">
           Living From
