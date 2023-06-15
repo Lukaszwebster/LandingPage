@@ -10,5 +10,11 @@ const props = defineProps ({
 </script>
 
 <template>
-  <div />
+  <div>
+    <ul>
+      <li v-for="item in props.tabs" :key="item.id">
+        {{ item.label }}
+      </li>
+    </ul>
+  </div>
 </template>
