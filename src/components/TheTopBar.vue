@@ -1,4 +1,12 @@
 <script setup>
+const props = defineProps ({
+  items: {
+    type: Array,
+    default() {
+      return []
+    },
+  },
+})
 const { t } = useI18n()
 </script>
 
@@ -10,10 +18,14 @@ const { t } = useI18n()
     <div class="flex items-center">
       <nav>
         <ul class="flex gap-[50px] text-[1.5rem] text-white">
-          <li>{{ t('button.review') }}</li>
+          <li v-for="item in props.items" :key="item.id">
+            {{ item.label }}
+          </li>
+
+          <!-- <li>{{ t('button.review') }}</li>
           <li>{{ t('button.tips') }}</li>
           <li>{{ t('button.alerts') }}</li>
-          <li>{{ t('button.blog') }}</li>
+          <li>{{ t('button.blog') }}</li> -->
         </ul>
       </nav>
       <AppButton>

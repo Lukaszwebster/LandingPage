@@ -3,10 +3,12 @@ const filterTabs = ref([
   {
     id: 1,
     label: 'flight',
+
   },
   {
     id: 2,
     label: 'Hotel',
+
   },
   {
     id: 3,

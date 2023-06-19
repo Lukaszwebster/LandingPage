@@ -6,6 +6,7 @@ const props = defineProps ({
       return []
     },
   },
+
 })
 </script>
 
@@ -13,7 +14,7 @@ const props = defineProps ({
   <div>
     <ul>
       <li v-for="item in props.tabs" :key="item.id">
-        {{ item.label }}
+        {{ item.id }} {{ item.label }}
       </li>
     </ul>
   </div>
