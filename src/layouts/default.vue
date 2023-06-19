@@ -1,22 +1,24 @@
 <script setup>
 import { RouterView } from 'vue-router'
 
-const navItems = ref([
+const { t } = useI18n()
+
+const navItems = computed(() => [
   {
     id: 1,
-    label: 'Review',
+    label: t('button.review'),
   },
   {
     id: 2,
-    label: 'Tips',
+    label: t('button.tips'),
   },
   {
     id: 3,
-    label: 'Alerts',
+    label: t('button.alerts'),
   },
   {
     id: 4,
-    label: 'Blog',
+    label: t('button.blog'),
   },
 ])
 </script>

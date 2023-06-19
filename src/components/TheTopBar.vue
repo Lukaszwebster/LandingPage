@@ -21,11 +21,6 @@ const { t } = useI18n()
           <li v-for="item in props.items" :key="item.id">
             {{ item.label }}
           </li>
-
-          <!-- <li>{{ t('button.review') }}</li>
-          <li>{{ t('button.tips') }}</li>
-          <li>{{ t('button.alerts') }}</li>
-          <li>{{ t('button.blog') }}</li> -->
         </ul>
       </nav>
       <AppButton>
