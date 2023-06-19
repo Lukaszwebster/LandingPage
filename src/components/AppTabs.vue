@@ -6,7 +6,6 @@ const props = defineProps ({
       return []
     },
   },
-
 })
 </script>
 
