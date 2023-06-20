@@ -6,6 +6,7 @@ const props = defineProps ({
       return []
     },
   },
+
 })
 const { t } = useI18n()
 </script>
