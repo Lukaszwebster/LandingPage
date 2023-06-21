@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     TheBox: typeof import('./components/TheBox.vue')['default']
     TheBoxCitiesSmall: typeof import('./components/TheBoxCitiesSmall.vue')['default']
     TheBoxDatesSmall: typeof import('./components/TheBoxDatesSmall.vue')['default']
+    TheBoxHotels: typeof import('./components/TheBoxHotels.vue')['default']
     TheBoxSmall: typeof import('./components/TheBoxSmall.vue')['default']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']

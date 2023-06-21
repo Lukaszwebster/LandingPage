@@ -24,7 +24,7 @@ const selectedTab = ref(1)
         </button>
       </template>
       <template #2>
-        asdf
+        <TheBoxHotels />
       </template>
     </AppTabs>
   </div>
