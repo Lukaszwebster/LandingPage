@@ -21,6 +21,7 @@ export default defineConfig({
       blue: '#3E86F5',
       grey: '#00000080',
       lightGray: '#E5E5E5',
+      lightBlueButton: 'rgba(62, 134, 245, 0.2)',
 
     },
 
