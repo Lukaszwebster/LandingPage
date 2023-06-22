@@ -11,6 +11,7 @@ const { t } = useI18n()
       {{ t('intro.desc') }}
     </h2>
   </div>
+
   <TheTravelFilter />
 </template>
 

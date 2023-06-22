@@ -14,7 +14,7 @@ const selectedTab = ref(1)
 </script>
 
 <template>
-  <div class="absolute left-0 right-0 ml-[130px] mr-[130px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[50px] bg-white -bottom-70">
+  <div class="absolute left-0 right-0 ml-[130px] mr-[130px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[50px] bg-white -bottom-80">
     <AppTabs :model-value="selectedTab" :tabs="filterTabs" @update:model-value="(value) => selectedTab = value">
       <template #1>
         <TheBoxCitiesSmall />

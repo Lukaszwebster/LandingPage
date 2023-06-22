@@ -10,6 +10,8 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppButton: typeof import('./components/AppButton.vue')['default']
+    AppMain: typeof import('./components/AppMain.vue')['default']
+    AppOffersCard: typeof import('./components/AppOffersCard.vue')['default']
     AppTabs: typeof import('./components/AppTabs.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
@@ -23,7 +25,11 @@ declare module '@vue/runtime-core' {
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheHomeHero: typeof import('./components/TheHomeHero.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
+    TheOffers: typeof import('./components/TheOffers.vue')['default']
+    TheOffersCard: typeof import('./components/TheOffersCard.vue')['default']
+    TheOffersFilter: typeof import('./components/TheOffersFilter.vue')['default']
     TheTopBar: typeof import('./components/TheTopBar.vue')['default']
+    TheTravelBox: typeof import('./components/TheTravelBox.vue')['default']
     TheTravelFilter: typeof import('./components/TheTravelFilter.vue')['default']
     TopBar: typeof import('./components/TopBar.vue')['default']
   }

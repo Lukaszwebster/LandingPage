@@ -22,6 +22,9 @@ export default defineConfig({
       grey: '#00000080',
       lightGray: '#E5E5E5',
       lightBlueButton: 'rgba(62, 134, 245, 0.2)',
+      lightBlack: 'rgba(0, 0, 0, 0.50)',
+      pinkBackground: '#FCDDEC',
+      pink: '#F178B6',
 
     },
 
