@@ -1,5 +1,7 @@
 <script setup>
 import SeaImage from '~/assets/unsplash_7uXn7nudorc.jpg'
+import ShoreImage from '~/assets/unsplash_HUk2W9fa-Jw.jpg'
+import MountainImage from '~/assets/unsplash_Yui5vfKHuzs.jpg'
 
 const tabs = ref([
   {
@@ -32,7 +34,7 @@ const teamCards = ref([
     type: 'Adventure',
     date: '18 JUN 2022',
     duration: '4 Days, 3 Nights',
-    pictureUrl: SeaImage,
+    pictureUrl: ShoreImage,
   },
   {
     id: 3,
@@ -41,7 +43,7 @@ const teamCards = ref([
     type: 'Relax',
     date: '14 FEB 2022',
     duration: '3 Days, 3 Nights',
-    pictureUrl: SeaImage,
+    pictureUrl: MountainImage,
   },
 ])
 

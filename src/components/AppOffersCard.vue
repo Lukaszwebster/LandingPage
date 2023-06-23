@@ -1,4 +1,5 @@
 <script setup>
+// w tym miejscu definiuje propsy w ktorych maja sie znalezc wartosci ktore beda w kartach
 const props = defineProps({
   name: {
     type: String,
@@ -25,6 +26,7 @@ const props = defineProps({
   <div class="max-w-[380px] w-full rounded-[50px] bg-white pb-[25px] pl-[27px] pr-[13px] pt-[21px]">
     <div class="flex gap-5">
       <img class="max-w-[18rem]" :src="props.pictureUrl" alt="">
+      <!-- w tym miejscu wyswietlam propsy -->
       <p class="text-center tracking-[0.5625rem] text-black/50 write-vertical-right">
         {{ props.date }}
       </p>
